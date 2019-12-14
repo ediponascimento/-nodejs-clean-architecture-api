@@ -6,6 +6,9 @@
   "scripts": {
     "test": "jest"
   },
+  "lint-staged": {
+    "*.js": ["standard"]
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
