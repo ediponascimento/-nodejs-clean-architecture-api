@@ -38,7 +38,7 @@ class SignUpUseCasa {
   }
 }
 
-// infra 
+// infra
 // add-account-tepo
 const mongoose = require('mongoose')
 const AccountModel = mongoose.model('Account')
