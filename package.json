@@ -9,6 +9,11 @@
   "lint-staged": {
     "*.js": ["standard"]
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged --fix"
+    }
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
